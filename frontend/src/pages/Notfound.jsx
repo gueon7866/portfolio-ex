@@ -5,4 +5,5 @@ const Notfound = () => {
     <div>Notfound</div>
   )
 }
+
 export default Notfound
