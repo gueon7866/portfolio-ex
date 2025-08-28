@@ -8,6 +8,8 @@ import Footer from '../components/home/Footer'
 const Home = () => {
   return (
     <div>
+      현재의 테마 : {theme}
+      <button onClick={toggleTheme}>테마전환</button>
       <Header />
       <main>
         <section id='Hero'>
