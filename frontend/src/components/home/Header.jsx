@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Nav from "./Nav"
 import "./styles/Header.scss"
 import { useTheme } from '../../context/ThemeContext'
+import FixedTop from './FixedTop'
 const Header = () => {
   const { theme, toggleTheme } = useTheme()
   const [scrolled, setScrolled] = useState(false)
@@ -25,12 +26,17 @@ const Header = () => {
       <div className="inner">
         <h4>LOGO</h4>
         <div className="right-wrap">
-
+        <button className='mob-nav-btn'>
+          <sapn>1</sapn>
+          <sapn>2</sapn>
+          <sapn>3</sapn>
+        </button>
           <Nav />
           <button className='btn' onClick={toggleTheme}>{theme}</button>
 
         </div>
       </div>
+      <FixedTop/>
     </header>
   )
 }
