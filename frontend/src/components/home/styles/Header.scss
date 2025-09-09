@@ -126,6 +126,22 @@ header {
                    >li +li{
                         border-top : .1rem solid var(--gary200);
                    }
+
+                   &.is-open{
+                    .inner {
+                        .right-wrap{
+                            .mob-nav-btn{
+                                span:nth-child(1){
+                                    transform: roate(45deg);
+                                    top:1.1rem;
+                                }
+                            }
+                            nav ul{
+                                right:0;
+                            }
+                        }
+                    }
+                   }
                 }
             }
         }
