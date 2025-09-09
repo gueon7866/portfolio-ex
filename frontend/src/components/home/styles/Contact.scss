@@ -5,12 +5,21 @@
 
   h1.tit {
     transform: translateX(-5rem);
+    @media screen and (max-width:1200px) {
+      transform: translateX(0);
+      
+    }
   }
 
   .contact-wrapper {
     display: flex;
     gap: 5rem;
-    padding-top: 16rem;
+    padding-top:clamp(12rem,14vw,16rem);
+    @media screen and (max-width:1200px) {
+        flex-direction: column;
+        //max-width: 80%;
+        margin:auto;
+    }
 
     .contact-form {
       flex: 1;
@@ -19,6 +28,11 @@
         li {
           display: flex;
           padding: 0.5rem 0;
+
+          @media screen and (max-width:768px) {
+            flex-direction: column;
+            
+          }
 
           .label {
             width: 15.8rem;
@@ -39,7 +53,15 @@
             }
 
           }
-
+          @media screen and (max-width:768px) {
+            flex-direction: column;
+            gap: .5rem;
+            
+            .label{
+              width:100%;
+            }
+            
+          }
           &:last-child {
             text-align: right;
 
@@ -78,6 +100,15 @@
           display: flex;
           justify-content: center;
           align-items: center;
+
+          @media screen and (max-width:1200px) {
+            display: none;
+          }
+
+          @media screen and (max-width:1200px) {
+            display: none;
+            
+          }
         }
 
         .content,
@@ -88,6 +119,12 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
+          @media screen and (max-width:768px) {
+            padding-left: 0;
+            text-align: center;
+            gap:.5rem;
+            padding: 2rem 0;
+          }
         }
         .contact-chips {
           flex-direction: row;
