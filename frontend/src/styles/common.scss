@@ -24,7 +24,10 @@ section {
         @media screen and (max-width:1200px) {
             height: auto;
             min-height: auto;
-            padding: clamp(10rem, 15vw, 20rem) 0;
+            padding: clamp(10rem, 15vw, 20rem) 
+            
+            
+            0;
         }
     }
 
