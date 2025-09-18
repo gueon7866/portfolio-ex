@@ -7,10 +7,6 @@ const PORT=process.env.PORT||3000
 const cors=require('cors')
 const cookieParser =require("cookie-parser")
 
-app.use(cors({
-  origin: "http://localhost:5173", // 프론트 포트
-  credentials: true
-}));
 app.use(cookieParser())
 app.use(express.json())
 app.use(express.urlencoded())
