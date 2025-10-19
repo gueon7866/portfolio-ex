@@ -17,9 +17,8 @@ const Aboutme = () => {
           profile
         </h2>
         <p className="txt">
-          들어가는 최종 요소나 사용된다. <br />
-          레이아웃 들어가는 로렘 부르며,
-          <br /> 들어가는 최종 전에 프로젝트 사용할 사용된다.
+          작은 인터랙션 하나에도 마음을 담고,<br />
+          따뜻한 경험을 만드는 웹을 지향합니다.
         </p>
       </div>
 
@@ -44,7 +43,7 @@ const Aboutme = () => {
         <div className="in-wrap skills-wrap">
           <h4 className='list-lst'>Skills</h4>
           <ul className="lst">
-            {skills.map((skill,i)=>(
+            {skills.map((skill, i) => (
               <li key={i}>{skill}</li>
             ))}
           </ul>
@@ -52,7 +51,7 @@ const Aboutme = () => {
         <div className="in-wrap exper-wrap">
           <h4 className='list-lst'>      💼 Experiences</h4>
           <ul className="lst">
-            {exper.map((exp,i)=>(
+            {exper.map((exp, i) => (
               <li key={i}>{exp}</li>
             ))}
           </ul>
@@ -60,7 +59,7 @@ const Aboutme = () => {
         <div className="in-wrap interests-wrap">
           <h4 className='list-lst'>           🌱 Interests</h4>
           <ul className="lst">
-            {interests.map((int,i)=>(
+            {interests.map((int, i) => (
               <li key={i}>{int}</li>
             ))}
           </ul>
