@@ -3,11 +3,11 @@ const img = (path) => `/img/${path}`;
 const works = [
   {
     id: "w-001",
-    title: "Social Media Dashboard",
-    subtitle: "SNS 통합 대시보드 · 반응형 UI",
-    description:
-      "React + Vite 기반의 SNS 통계/알림을 한눈에 보는 대시보드. 카드/차트/필터 컴포넌트로 모듈화.",
-    tags: ["REACT", "RESPONSIVE", "DASHBOARD", "CHART", "CLEANUI"],
+    title: "BucketList !",
+    subtitle: "MERN 활용한 버킷리스트 · 반응형 UI",
+    description: `React + Vite로 만든 나만의 버킷리스트!
+단순한 목록이 아니라, 당신의 꿈이 현실이 되는 여정을 함께합니다!`,
+    tags: ["MERN", "CRUD", "AUTH", "DASHBOARD", "RESPONSIVE"],
     thumbnail: img("p-1.png"),
     // 선택: 상세 보기용
     period: "2025.07 ~ 2025.08",
