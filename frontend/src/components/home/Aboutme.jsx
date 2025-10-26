@@ -13,10 +13,10 @@ const Aboutme = () => {
         aboutMe
       </h1>
       <div className="t-wrap">
-        <h2 className="sub-tit">
-          profile
-        </h2>
-        <p className="txt">
+        <h2 className="sub-tit"> 
+        
+        </h2> 
+        <p className="txt"><br/>
           작은 인터랙션 하나에도 마음을 담고,<br />
           따뜻한 경험을 만드는 웹을 지향합니다.
         </p>
@@ -37,6 +37,9 @@ const Aboutme = () => {
             </li>
             <li>
               <strong>MBTI</strong>: {profile.mbti}
+            </li>
+            <li>
+              <strong>Insta</strong>: {profile.insta}
             </li>
           </ul>
         </div>

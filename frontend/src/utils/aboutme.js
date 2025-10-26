@@ -6,6 +6,7 @@ const aboutMe = {
     age: 26,
     location: "경기도 동두천, 대한민국",
     mbti: "INFP",
+    insta: "gueon_e"
   },
   skills: [
     "JavaScript (ES6+)",
