@@ -83,7 +83,7 @@ const works = [
   links: {
     demo: "#",
     notion:
-      "https://www.notion.so/24c589d8caac80f7b116e050e6bf4452?v=24c589d8caac8084a9ae000c6f4a5793&source=copy_link",
+      "https://www.notion.so/Portfolio-Project-277589d8caac807e81cde747fa5b0f13?source=copy_link",
   },
 }
 
