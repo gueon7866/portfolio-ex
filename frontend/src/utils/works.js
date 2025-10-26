@@ -6,7 +6,7 @@ const works = [
     title: "BucketList !",
     subtitle: "MERN 활용한 버킷리스트 · 반응형 UI",
     description: `React + Vite로 만든 나만의 버킷리스트!
-단순한 목록이 아니라, 당신의 꿈이 현실이 되는 여정을 함께합니다!`,
+단순한 목록이 아니라, 당신의 꿈이 현실이 되는 여정을 함께합니다.`,
     tags: ["MERN", "CRUD", "AUTH", "DASHBOARD", "RESPONSIVE"],
     thumbnail: img("p-1.png"),
     // 선택: 상세 보기용
@@ -55,54 +55,38 @@ const works = [
     id: "w-004",
     title: "React Mini Projects",
     subtitle: "Counter · Timer · Wiki Search · Weather App",
-    description:
-      "React + Vite로 제작한 4개의 미니 프로젝트입니다. 상태 관리, 이벤트 핸들링, API 통신, 반응형 UI 등 다양한 기능을 실습하며 구현했습니다.",
+    description: "React + Vite로 만든 4개의 미니 프로젝트입니다. 상태 관리, 이벤트 처리, API 호출, 반응형 UI를 연습하며 구현했습니다.",
     tags: ["React", "VITE", "HOOKS", "AXIOS", "RESPONSIVE", "PRACTICE"],
-    thumbnail: img("p-4.png"),
-
+    thumbnail: img("mini-4.png"),
 
     period: "2025.04",
     role: "Front-end(미니)",
     stack: ["React", "VITE", "HOOKS", "AXIOS"],
     links: {
       demo: "#",
-      notion: "https://www.notion.so/react-mini-projects-collection-1234567890abcdef",
+      notion: "https://www.notion.so/24c589d8caac80f7b116e050e6bf4452?v=24c589d8caac8084a9ae000c6f4a5793&source=copy_link",
     },
   },
 
-  {
-    id: "w-005",
-    title: "E-commerce Product Gallery",
-    subtitle: "상품 리스트 · 필터/정렬",
-    description:
-      "상세 필터·정렬·페이지네이션을 제공하는 상품 갤러리. 접근성 고려한 키보드 네비게이션 적용.",
-    tags: ["REACT", "RESPONSIVE", "FILTER", "PAGINATION", "ACCESSIBILITY"],
-    thumbnail: img("p-2.png"),
-    period: "2025.06",
-    role: "Front-end",
-    stack: ["React", "Vite", "React Router"],
-    links: {
-      demo: "https://example.com/demo2",
-      notion: "https://notion.com/you/demo2",
-    },
-  },
-  {
-    id: "w-006",
-    title: "Portfolio Admin",
-    subtitle: "Works 관리 · CRUD",
-    description:
-      "관리자에서 Works 항목을 생성/수정/삭제하는 SPA. 목데이터로부터 CRUD UX 설계.",
-    tags: ["REACT", "CRUD", "ADMIN", "FORM", "VALIDATION"],
-    thumbnail: img("p-3.png"),
+ {
+  id: "w-005",
+  title: "Portfolio Projects",
+  subtitle: "React 3D Portfolio · Modern Workspace Design",
+  description:
+    "React + Vite 기반으로 제작한 포트폴리오 웹사이트입니다. 3D 스타일의 UI, 반응형 레이아웃, 컴포넌트 구조화를 통해 깔끔하고 직관적인 사용자 경험을 구현했습니다.",
+  tags: ["React", "VITE", "3D", "RESPONSIVE", "UI/UX", "PORTFOLIO"],
+  thumbnail: img("port-5.png"),
 
-    period: "2025.05",
-    role: "Full-stack(미니)",
-    stack: ["React", "Zustand", "Express(Mock)"],
-    links: {
-      demo: "#",
-      notion: "#",
-    },
+  period: "2025.09 ~ 2025.10",
+  role: "Front-end",
+  stack: ["React", "VITE", "STYLED-COMPONENTS", "THREE.JS"],
+  links: {
+    demo: "#",
+    notion:
+      "https://www.notion.so/24c589d8caac80f7b116e050e6bf4452?v=24c589d8caac8084a9ae000c6f4a5793&source=copy_link",
   },
+}
+
   // 필요 개수만큼 추가
 ];
 
